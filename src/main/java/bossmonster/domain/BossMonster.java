@@ -2,11 +2,11 @@ package bossmonster.domain;
 
 public class BossMonster {
 
-    private int hp;
+    private int BossHp;
 
-    public BossMonster(int hp) {
-        this.hp = hp;
-        validateHpRange(hp);
+    public BossMonster(int BossHp) {
+        this.BossHp = BossHp;
+        validateHpRange(BossHp);
     }
 
     public void validateHpRange(int hp){
